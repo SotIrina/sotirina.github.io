@@ -42,7 +42,15 @@
 
 		
 		<div class="title"><h2 id="title">"Название"</h2></div>	
-		
+		<div class="scale_plus">
+			<button class="plus" onclick="Size(0.1);" title="увеличить">+</button>
+		</div>	
+		<div class="scale_normal">
+			<button class="normal" onclick="SizeNormal();" title="сбросить">х</button>
+		</div>			
+		<div class="scale_minus">
+			<button onclick="SizeMinus(-0.1);" title="уменьшить">-</button>
+		</div>
 		<div class="accordion"> 
 		    <div class="tab">
 				<input type="checkbox" id="tab1" name="tab-group">
