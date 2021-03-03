@@ -1,0 +1,165 @@
+.group{
+	overflow: auto;
+	border-radius: 5px 5px 5px 5px; /* Скругляем уголки */
+}	
+.block{
+	background: #DCDCDC;
+	margin: 0px 0px 10px 10px;
+	padding: 0px 0px 0px 10px; 
+	float: left;
+	text-align: center;
+	border-radius: 5px 5px 5px 5px; /* Скругляем уголки */
+}
+.blockalones{
+	margin: 0px 0px 10px 10px;
+	padding: 10px 0px 0px 10px;
+	float: left;
+	border-radius: 5px 5px 5px 5px; /* Скругляем уголки */	
+}
+.element{
+	background: #FFFFFF;
+	border: 1px solid;			
+	width: 200px;
+	height: auto;
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
+	padding: 0px 0px 0px 5px;			
+	position: relative;
+	border-radius: 5px 5px 5px 5px; /* Скругляем уголки */
+}	
+h4{
+	margin: 5px 0px 5px 0px;
+}
+h5{
+	margin: 5px 5px 5px 0px;		
+}
+h6, p{
+	margin: 5px 0px 5px 0px;
+}
+.nametop{
+	margin: 0px 5px 5px 0px;		
+	border-bottom: 1px solid;				
+}
+.name{
+	font-style: italic;
+	text-align: right;
+	margin: 0px 5px 5px 0px;		
+	border-bottom: 1px solid;				
+}		
+.property {
+	text-align: left;
+}
+.property.hide {
+	display:none;
+}
+.lamp_on{
+	background: #00FA15;
+	border: 1px solid;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin: 5px 5px 5px 0px;
+	float: left;
+}
+.lamp_off{
+	border: 1px solid;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin: 5px 5px 5px 0px;
+	float: left;		
+}
+.title{
+	text-align: center;
+	margin: 5px 0px 0px 10px;			
+}
+.ramka{
+	background: #f2f2f2;	
+	padding: 10px 0px 0px 0px;
+	overflow: auto;		
+	clear: left;			
+}
+.new{
+	font-weight: 900;
+}
+.num {
+	display: inline-block;
+	min-width:30px;
+	text-align:center;
+	padding: 0px 5px 0px 5px;
+}
+.expand{
+	text-align: right;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.scale_plus{
+	text-align: right;		
+	float: left;		
+	margin: 0px 5px 15px 0px;
+	width:49%;			
+}
+.scale_normal{
+	text-align: right;		
+	float: left;		
+	margin: 0px 5px 15px 0px;			
+}
+.scale_minus{
+	text-align: left;		
+	margin: 0px 5px 15px 0px;	
+}
+h2{
+	margin: 20px 0px 15px 0px;		
+}
+
+		
+
+#default_group {
+	display: none;
+}
+
+
+.tab-content, #tab1 {
+	display: none; 
+	}
+.tab {
+	border: 1px solid #e9eaec;
+	border-radius: 3px;
+	}	
+.tab-title {
+	padding: 10px;
+	display: block;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 5px;
+	}
+.tab-title::after {
+	content: '»';
+	}
+.tab-content {
+	padding: 10px 10px;
+	border-radius: 5px;
+	}
+.tab :checked + .tab-title {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	}
+.tab :checked + .tab-title::after {
+	content: '«';
+	}
+.tab :checked ~ .tab-content {
+	display: block; 
+	}
+
+
+
+
+
+
+
+
+
+
+
+

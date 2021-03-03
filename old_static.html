@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang='ru'>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="kpa_ui_table.css"/>
+		<script src="kpa_ui_table_api.js"> </script>
+	</head>
+  
+  
+	<body>	
+		<div id="default_group">	
+
+			<div class="block">
+			
+				<h4></h4>
+				
+				<div class="element">
+					<div class="nametop">
+						<h5></h5>
+					</div>						
+					<div class="name">
+						<h5></h5>
+					</div>
+					<div class="property bool">
+						<div class="lamp lamp_off"></div>
+						<div>
+							<p class="prop_name"></p>
+						</div>
+					</div>	
+					<div class="property number">
+						<p>
+							<span class="prop_name"></span>
+							<span class="num"></span>
+						</p>
+					</div>		
+				</div>
+			</div>
+			
+		</div>
+
+
+		
+		<div class="title"><h2 id="title">"Название"</h2></div>	
+		
+		<div class="accordion"> 
+		    <div class="tab">
+				<input type="checkbox" id="tab1" name="tab-group">
+				<label for="tab1" class="tab-title">Управление отображением блоков </label> 
+				<section class="tab-content"> 
+				  <p><input type="checkbox">Г-КБ1-640</p>
+				  <p><input type="checkbox">2Б-КБ1-640</p>
+				</section> 
+		    </div> 
+		</div>
+
+
+		<div class="ramka"  id="workplace">
+			<div class="group">
+				<!--Г-КБ1-640-->
+				<div class="block">
+					<h4>Г-КБ1-640</h4>
+					<div class="element">
+						<div class="nametop">
+							<h5>БГ_1</h5>
+						</div>						
+						<div class="name">
+							<h5>Линейные частоты</h5>
+						</div>
+						<div class="property bool">
+							<div class="lamp lamp_on"></div>
+							<div>
+								<p>Захват ФАПЧ СЧ1</p>
+							</div>
+						</div>
+						<div class="property bool">
+							<div class="lamp lamp_off"></div>
+							<div>
+								<p>Захват ФАПЧ СЧ2</p>
+							</div>
+						</div>		
+						<div class="property bool">
+							<div class="lamp lamp_on"></div>
+							<div>
+								<p>ИПК</p>
+							</div>
+						</div>
+						<div class="property bool">
+							<div class="lamp lamp_off"></div>
+							<div>
+								<p>ПЧ ПК</p>
+							</div>
+						</div>		
+						<div class="property number">
+							<p>Частота ОК
+								<span class="num">1000</span> Гц
+							</p>
+						</div>		
+						<div class="property number">
+							<p>Частота ОК
+								<span class="num">10</span> Гц
+							</p>
+						</div>
+						<div class="expand">
+							<button class="expand_btn" >»</button>
+						</div>
+					</div>
+				</div>
+				
+				<!--2Б-КБ1-640-->
+				<div class="block">
+					<h4>2Б-КБ1-640</h4>
+					<div class="element">
+						<div class="nametop">
+							<h5>БГ_2</h5>
+						</div>							
+						<div class="name">
+							<h5>Линейные частоты</h5>
+						</div>
+						<div class="property bool">
+							<div class="lamp lamp_on"></div>
+							<div>
+								<p>Захват ФАПЧ СЧ1</p>
+							</div>
+						</div>
+						<div class="property bool">
+							<div class="lamp lamp_off"></div>
+							<div>
+								<p>Захват ФАПЧ СЧ2</p>
+							</div>
+						</div>		
+						<div class="property number new">
+							<p>АРУ1
+								<span class="num">0</span>
+							</p>
+						</div>	
+						<div class="property number">
+							<p>АРУ2
+								<span class="num">0</span>
+							</p>
+						</div>	
+						<div class="property number">
+							<p>Частота ОК
+								<span class="num">100</span> Гц
+							</p>
+						</div>	
+						<div class="property number new">
+							<p>Частота ОК
+								<span class="num">100</span> Гц
+							</p>
+						</div>							
+					</div>
+				</div>
+			</div>
+			
+			<div class="group">
+				<!--AP7921-->
+				<div class="block">
+					<h4>АР7921</h4>
+					<div class="element">
+						<h5>PDU_1</h5>
+					</div>
+					<div class="element">
+						<h5>PDU_2</h5>
+					</div>
+					<div class="element">
+						<h5>PDU_3</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="group">		
+				<!--50SA-282-->
+				<div class="block">
+					<h4>50SA-282</h4>
+					<div class="element">
+						<h5>50SA-282_1</h5>
+					</div>
+					<div class="element">
+						<h5>50SA-282_2</h5>
+					</div>
+					<div class="element">
+						<h5>50SA-282_3</h5>
+					</div>
+					<div class="element">
+						<h5>50SA-282_4</h5>
+					</div>
+				</div>
+				
+				<!--С-КБ-640(3)-->
+				<div class="block">
+					<h4>С-КБ-640(3)</h4>
+					<div class="element">
+						<h5>С-КБ-640(3)_1</h5>
+					</div>
+					<div class="element">
+						<h5>С-КБ-640(3)_2</h5>
+					</div>
+					<div class="element">
+						<h5>С-КБ-640(3)_3</h5>
+					</div>
+					<div class="element">
+						<h5>С-КБС-КБ-640(3)_4</h5>
+					</div>
+				</div>
+			</div>	
+					
+			<div class="group">
+				<!--С-КБ2-640(1)-->
+				<div class="block">
+					<h4>С-КБ2-640(1)</h4>
+					<div class="element">
+						<h5>Z4_1</h5>
+					</div>
+					<div class="element">
+						<h5>LEON_1</h5>
+					</div>
+					<div class="element">
+						<h5>Г_1</h5>
+					</div>
+					<div class="element">
+						<h5>БУ_1</h5>
+					</div>
+					<div class="element">
+						<h5>МПР_1</h5>
+					</div>
+					<div class="element">
+						<h5>C_1</h5>
+					</div>
+					<div class="element">
+						<h5>АТЛС_1</h5>
+					</div>
+					<div class="element">
+						<h5>block_1</h5>
+					</div>
+				</div>
+				
+				<!--С-КБ2-640(2)-->
+				<div class="block">
+					<h4>С-КБ2-640(2)</h4>
+					<div class="element">
+						<h5>Z4_2</h5>
+					</div>
+					<div class="element">
+						<h5>LEON_2</h5>
+					</div>
+					<div class="element">
+						<h5>Г_2</h5>
+					</div>
+					<div class="element">
+						<h5>БУ_2</h5>
+					</div>
+					<div class="element">
+						<h5>МПР_2</h5>
+					</div>
+					<div class="element">
+						<h5>C_2</h5>
+					</div>
+					<div class="element">
+						<h5>АТЛС_2</h5>
+					</div>
+					<div class="element">
+						<h5>block_2</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="group">	
+				<!--blockalones-->
+				<div class="blockalones">
+					
+					<!--mainPower-->
+					<div class="element">
+						<h5>mainPower</h5>
+					</div>
+					
+					<!--2И2-МПТ-->
+					<div class="element">
+						<h5>2И2-МПТ</h5>
+					</div>
+					
+					<!--2БИ-МПТ-->
+					<div class="element">
+						<h5>2БИ-МПТ</h5>
+					</div>				
+					
+					<!--GBIP-ENET-->
+					<div class="element">
+						<h5>GBIP-ENET</h5>
+					</div>				
+					
+					<!--P7007SD-->
+					<div class="element">
+						<h5>P7007SD</h5>
+					</div>
+					
+					<!--P7022C-->
+					<div class="element">
+						<h5>P7022C</h5>
+					</div>
+					
+					<!--S0PA-405-->
+					<div class="element">
+						<h5>S0PA-405</h5>
+					</div>		
+
+					<!--КБ-298-->
+					<div class="element">
+						<h5>КБ-298</h5>
+					</div>	
+
+					<!--FS725-->
+					<div class="element">
+						<h5>FS725</h5>
+					</div>				
+					
+				</div>
+			</div>
+		</div>		
+	</body>
+	
+			<script src="tests.js"> </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang='ru'>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="kpa_ui_table.css"/>
+		<script src="kpa_ui_table_api.js"></script>
+
+	</head>
+  
+  
+	<body>	
+		<div id="default_group">	
+			<div class="block">
+				<h4></h4>
+				<div class="element">	
+					<div class="nametop">
+						<h5></h5>
+					</div>						
+					<div class="name">
+						<h5></h5>
+					</div>
+					<div class="property bool">
+						<div class="lamp lamp_off"></div>
+						<div>
+							<p class="prop_name"></p>
+						</div>
+					</div>	
+					<div class="property number">
+						<p>
+							<span class="prop_name"></span>
+							<span class="num"></span>
+						</p>
+					</div>
+					<div class="expand">
+						<button class="expand_btn" title="Раскрыть полный список свойств">»</button>
+					</div>						
+				</div>				
+			</div>
+		</div>
+		<div class="title" style="clear">
+			<h2 id="title">"Название"</h2>
+		</div> 
+		<div class="scale_plus">
+			<button class="plus" onclick="Size(0.1);" title="увеличить">+</button>
+		</div>	
+		<div class="scale_normal">
+			<button class="normal" onclick="SizeNormal();" title="сбросить">х</button>
+		</div>			
+		<div class="scale_minus">
+			<button onclick="SizeMinus(-0.1);" title="уменьшить">-</button>
+		</div>
+		<div class="accordion"> 
+			<div class="tab">
+				<input type="checkbox" id="tab1" name="tab-group">
+				<label for="tab1" class="tab-title">Управление отображением блоков </label> 
+				<section class="tab-content"> 
+					<p><input type="checkbox">Г-КБ1-640</p>
+					<p><input type="checkbox">2Б-КБ1-640</p>
+				</section> 
+			</div> 
+		</div>
+		<div class="ramka" id="workplace">			
+		</div>			
+	</body>
+	
+	<script src="tests.js"></script>
+	
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
